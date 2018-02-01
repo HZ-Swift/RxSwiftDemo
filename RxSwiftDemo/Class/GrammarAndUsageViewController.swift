@@ -9,13 +9,11 @@
 import UIKit
 import RxSwift
 
-class GrammarAndUsageViewController: UIViewController {
+class GrammarAndUsageViewController: RxViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        view.backgroundColor = UIColor.white
-        
+                
 //        observableGrammarAndUsage()
         
         subjectGrammarAndUsage()
