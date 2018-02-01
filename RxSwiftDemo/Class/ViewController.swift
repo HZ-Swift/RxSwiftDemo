@@ -12,7 +12,7 @@ import RxSwift
 class ViewController: UIViewController {
     
     fileprivate var cellTitles: [String] {
-        return ["一些基本的用法", "类似登录页面的Demo", "Observer", "Subject", "一些UI元件", "tableView"]
+        return ["一些基本的用法", "类似登录页面的Demo", "Observer", "Subject", "一些UI元件", "tableView", "tableView__1"]
     }
     
     fileprivate lazy var tableView: UITableView = {
@@ -34,6 +34,7 @@ class ViewController: UIViewController {
         case "Subject":         vc = SubjectViewController()
         case "一些UI元件":       vc = UIElementViewController()
         case "tableView":       vc = TableViewController()
+        case "tableView":       vc = TableViewController__1()
         default:                vc = RxViewController()
         }
         

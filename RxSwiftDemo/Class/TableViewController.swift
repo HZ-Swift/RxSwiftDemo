@@ -43,6 +43,9 @@ class TableViewController: RxViewController {
             cell.detailTextLabel?.text = String(person.age)
         }.disposed(by: disposeBag)
         
+        tableView.rx.modelSelected(TablePerson.self).subscribe(onNext: {
+            print($0)
+        }).disposed(by: disposeBag)
         
     }
 
