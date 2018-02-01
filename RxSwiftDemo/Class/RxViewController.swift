@@ -22,6 +22,8 @@ class RxViewController: UIViewController {
         self.view.backgroundColor = UIColor.white
     }
 
-
+    deinit {
+        print(NSStringFromClass(self.classForCoder), "  😝 😝 😝 😝 deinit")
+    }
 
 }
