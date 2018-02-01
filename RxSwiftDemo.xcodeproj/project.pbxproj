@@ -10,6 +10,9 @@
 		0B2BC2D12021B56B0022E2AB /* InputDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2BC2CF2021B56B0022E2AB /* InputDemoViewController.swift */; };
 		0B2BC2D22021B56B0022E2AB /* InputDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B2BC2D02021B56B0022E2AB /* InputDemoViewController.xib */; };
 		0B71610820216C5700D82928 /* GrammarAndUsageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B71610720216C5700D82928 /* GrammarAndUsageViewController.swift */; };
+		0BB372922022B21A00281C1E /* ObserverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB372912022B21A00281C1E /* ObserverViewController.swift */; };
+		0BB372942022C43D00281C1E /* SubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB372932022C43D00281C1E /* SubjectViewController.swift */; };
+		0BB372962022C49C00281C1E /* RxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB372952022C49C00281C1E /* RxViewController.swift */; };
 		99C4904560490F10F2AADBD1 /* Pods_RxSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F53A3452733D2027D3BD08C /* Pods_RxSwiftDemo.framework */; };
 		ADA0C86D200668F70023935A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA0C86C200668F70023935A /* AppDelegate.swift */; };
 		ADA0C86F200668F70023935A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA0C86E200668F70023935A /* ViewController.swift */; };
@@ -23,6 +26,9 @@
 		0B2BC2CF2021B56B0022E2AB /* InputDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputDemoViewController.swift; sourceTree = "<group>"; };
 		0B2BC2D02021B56B0022E2AB /* InputDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputDemoViewController.xib; sourceTree = "<group>"; };
 		0B71610720216C5700D82928 /* GrammarAndUsageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarAndUsageViewController.swift; sourceTree = "<group>"; };
+		0BB372912022B21A00281C1E /* ObserverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverViewController.swift; sourceTree = "<group>"; };
+		0BB372932022C43D00281C1E /* SubjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectViewController.swift; sourceTree = "<group>"; };
+		0BB372952022C49C00281C1E /* RxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxViewController.swift; sourceTree = "<group>"; };
 		2902E683A3EB66597EE5413E /* Pods-RxSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftDemo/Pods-RxSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		9F53A3452733D2027D3BD08C /* Pods_RxSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA0C869200668F70023935A /* RxSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,9 +56,12 @@
 			isa = PBXGroup;
 			children = (
 				ADA0C86E200668F70023935A /* ViewController.swift */,
+				0BB372952022C49C00281C1E /* RxViewController.swift */,
 				0B71610720216C5700D82928 /* GrammarAndUsageViewController.swift */,
 				0B2BC2CF2021B56B0022E2AB /* InputDemoViewController.swift */,
 				0B2BC2D02021B56B0022E2AB /* InputDemoViewController.xib */,
+				0BB372912022B21A00281C1E /* ObserverViewController.swift */,
+				0BB372932022C43D00281C1E /* SubjectViewController.swift */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -238,6 +247,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B2BC2D12021B56B0022E2AB /* InputDemoViewController.swift in Sources */,
+				0BB372962022C49C00281C1E /* RxViewController.swift in Sources */,
+				0BB372942022C43D00281C1E /* SubjectViewController.swift in Sources */,
+				0BB372922022B21A00281C1E /* ObserverViewController.swift in Sources */,
 				ADA0C86F200668F70023935A /* ViewController.swift in Sources */,
 				ADA0C86D200668F70023935A /* AppDelegate.swift in Sources */,
 				0B71610820216C5700D82928 /* GrammarAndUsageViewController.swift in Sources */,

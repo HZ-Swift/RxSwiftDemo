@@ -10,7 +10,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-class InputDemoViewController: UIViewController {
+class InputDemoViewController: RxViewController {
 
     @IBOutlet weak var helloLabel: UILabel!
     @IBOutlet weak var nameInputTF: UITextField!
@@ -18,10 +18,6 @@ class InputDemoViewController: UIViewController {
     @IBOutlet weak var nameLabel: UILabel!
     
     var nameArray: Variable<[String]> = Variable([])
-    
-    lazy var disposeBag: DisposeBag = {
-        return DisposeBag()
-    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,8 +40,6 @@ class InputDemoViewController: UIViewController {
     }
     
     fileprivate func bindSubmitBtn() {
-        Reactive
-        submitBtn.rx
         submitBtn.rx.tap.subscribe (onNext: {
             print("sdkfhkj")
             if self.nameInputTF.text == nil && self.nameInputTF.text != "" {
